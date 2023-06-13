@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5274082C2A38BA5300DE478B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274082B2A38BA5300DE478B /* AppDelegate.swift */; };
+		527408302A38BA5300DE478B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274082F2A38BA5300DE478B /* ViewController.swift */; };
+		527408332A38BA5300DE478B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527408312A38BA5300DE478B /* Main.storyboard */; };
+		527408352A38BA5500DE478B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527408342A38BA5500DE478B /* Assets.xcassets */; };
+		527408382A38BA5500DE478B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527408362A38BA5500DE478B /* LaunchScreen.storyboard */; };
+		527408432A38BA5500DE478B /* HelloAutoHideKeyboard2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527408422A38BA5500DE478B /* HelloAutoHideKeyboard2Tests.swift */; };
+		5274084D2A38BA5500DE478B /* HelloAutoHideKeyboard2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274084C2A38BA5500DE478B /* HelloAutoHideKeyboard2UITests.swift */; };
+		5274084F2A38BA5500DE478B /* HelloAutoHideKeyboard2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274084E2A38BA5500DE478B /* HelloAutoHideKeyboard2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5274083F2A38BA5500DE478B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527408202A38BA5300DE478B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527408272A38BA5300DE478B;
+			remoteInfo = HelloAutoHideKeyboard2;
+		};
+		527408492A38BA5500DE478B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527408202A38BA5300DE478B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527408272A38BA5300DE478B;
+			remoteInfo = HelloAutoHideKeyboard2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		527408282A38BA5300DE478B /* HelloAutoHideKeyboard2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAutoHideKeyboard2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5274082B2A38BA5300DE478B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5274082F2A38BA5300DE478B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		527408322A38BA5300DE478B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		527408342A38BA5500DE478B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527408372A38BA5500DE478B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		527408392A38BA5500DE478B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5274083E2A38BA5500DE478B /* HelloAutoHideKeyboard2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAutoHideKeyboard2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527408422A38BA5500DE478B /* HelloAutoHideKeyboard2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAutoHideKeyboard2Tests.swift; sourceTree = "<group>"; };
+		527408482A38BA5500DE478B /* HelloAutoHideKeyboard2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAutoHideKeyboard2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5274084C2A38BA5500DE478B /* HelloAutoHideKeyboard2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAutoHideKeyboard2UITests.swift; sourceTree = "<group>"; };
+		5274084E2A38BA5500DE478B /* HelloAutoHideKeyboard2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAutoHideKeyboard2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527408252A38BA5300DE478B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5274083B2A38BA5500DE478B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527408452A38BA5500DE478B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5274081F2A38BA5300DE478B = {
+			isa = PBXGroup;
+			children = (
+				5274082A2A38BA5300DE478B /* HelloAutoHideKeyboard2 */,
+				527408412A38BA5500DE478B /* HelloAutoHideKeyboard2Tests */,
+				5274084B2A38BA5500DE478B /* HelloAutoHideKeyboard2UITests */,
+				527408292A38BA5300DE478B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527408292A38BA5300DE478B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527408282A38BA5300DE478B /* HelloAutoHideKeyboard2.app */,
+				5274083E2A38BA5500DE478B /* HelloAutoHideKeyboard2Tests.xctest */,
+				527408482A38BA5500DE478B /* HelloAutoHideKeyboard2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5274082A2A38BA5300DE478B /* HelloAutoHideKeyboard2 */ = {
+			isa = PBXGroup;
+			children = (
+				5274082B2A38BA5300DE478B /* AppDelegate.swift */,
+				5274082F2A38BA5300DE478B /* ViewController.swift */,
+				527408312A38BA5300DE478B /* Main.storyboard */,
+				527408342A38BA5500DE478B /* Assets.xcassets */,
+				527408362A38BA5500DE478B /* LaunchScreen.storyboard */,
+				527408392A38BA5500DE478B /* Info.plist */,
+			);
+			path = HelloAutoHideKeyboard2;
+			sourceTree = "<group>";
+		};
+		527408412A38BA5500DE478B /* HelloAutoHideKeyboard2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				527408422A38BA5500DE478B /* HelloAutoHideKeyboard2Tests.swift */,
+			);
+			path = HelloAutoHideKeyboard2Tests;
+			sourceTree = "<group>";
+		};
+		5274084B2A38BA5500DE478B /* HelloAutoHideKeyboard2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5274084C2A38BA5500DE478B /* HelloAutoHideKeyboard2UITests.swift */,
+				5274084E2A38BA5500DE478B /* HelloAutoHideKeyboard2UITestsLaunchTests.swift */,
+			);
+			path = HelloAutoHideKeyboard2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527408272A38BA5300DE478B /* HelloAutoHideKeyboard2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527408522A38BA5500DE478B /* Build configuration list for PBXNativeTarget "HelloAutoHideKeyboard2" */;
+			buildPhases = (
+				527408242A38BA5300DE478B /* Sources */,
+				527408252A38BA5300DE478B /* Frameworks */,
+				527408262A38BA5300DE478B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloAutoHideKeyboard2;
+			productName = HelloAutoHideKeyboard2;
+			productReference = 527408282A38BA5300DE478B /* HelloAutoHideKeyboard2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5274083D2A38BA5500DE478B /* HelloAutoHideKeyboard2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527408552A38BA5500DE478B /* Build configuration list for PBXNativeTarget "HelloAutoHideKeyboard2Tests" */;
+			buildPhases = (
+				5274083A2A38BA5500DE478B /* Sources */,
+				5274083B2A38BA5500DE478B /* Frameworks */,
+				5274083C2A38BA5500DE478B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527408402A38BA5500DE478B /* PBXTargetDependency */,
+			);
+			name = HelloAutoHideKeyboard2Tests;
+			productName = HelloAutoHideKeyboard2Tests;
+			productReference = 5274083E2A38BA5500DE478B /* HelloAutoHideKeyboard2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		527408472A38BA5500DE478B /* HelloAutoHideKeyboard2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527408582A38BA5500DE478B /* Build configuration list for PBXNativeTarget "HelloAutoHideKeyboard2UITests" */;
+			buildPhases = (
+				527408442A38BA5500DE478B /* Sources */,
+				527408452A38BA5500DE478B /* Frameworks */,
+				527408462A38BA5500DE478B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5274084A2A38BA5500DE478B /* PBXTargetDependency */,
+			);
+			name = HelloAutoHideKeyboard2UITests;
+			productName = HelloAutoHideKeyboard2UITests;
+			productReference = 527408482A38BA5500DE478B /* HelloAutoHideKeyboard2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527408202A38BA5300DE478B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					527408272A38BA5300DE478B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					5274083D2A38BA5500DE478B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 527408272A38BA5300DE478B;
+					};
+					527408472A38BA5500DE478B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 527408272A38BA5300DE478B;
+					};
+				};
+			};
+			buildConfigurationList = 527408232A38BA5300DE478B /* Build configuration list for PBXProject "HelloAutoHideKeyboard2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5274081F2A38BA5300DE478B;
+			productRefGroup = 527408292A38BA5300DE478B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527408272A38BA5300DE478B /* HelloAutoHideKeyboard2 */,
+				5274083D2A38BA5500DE478B /* HelloAutoHideKeyboard2Tests */,
+				527408472A38BA5500DE478B /* HelloAutoHideKeyboard2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527408262A38BA5300DE478B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527408382A38BA5500DE478B /* LaunchScreen.storyboard in Resources */,
+				527408352A38BA5500DE478B /* Assets.xcassets in Resources */,
+				527408332A38BA5300DE478B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5274083C2A38BA5500DE478B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527408462A38BA5500DE478B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527408242A38BA5300DE478B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527408302A38BA5300DE478B /* ViewController.swift in Sources */,
+				5274082C2A38BA5300DE478B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5274083A2A38BA5500DE478B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527408432A38BA5500DE478B /* HelloAutoHideKeyboard2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527408442A38BA5500DE478B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5274084F2A38BA5500DE478B /* HelloAutoHideKeyboard2UITestsLaunchTests.swift in Sources */,
+				5274084D2A38BA5500DE478B /* HelloAutoHideKeyboard2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		527408402A38BA5500DE478B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527408272A38BA5300DE478B /* HelloAutoHideKeyboard2 */;
+			targetProxy = 5274083F2A38BA5500DE478B /* PBXContainerItemProxy */;
+		};
+		5274084A2A38BA5500DE478B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527408272A38BA5300DE478B /* HelloAutoHideKeyboard2 */;
+			targetProxy = 527408492A38BA5500DE478B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		527408312A38BA5300DE478B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527408322A38BA5300DE478B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		527408362A38BA5500DE478B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527408372A38BA5500DE478B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527408502A38BA5500DE478B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527408512A38BA5500DE478B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527408532A38BA5500DE478B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloAutoHideKeyboard2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.HelloAutoHideKeyboard2.HelloAutoHideKeyboard2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527408542A38BA5500DE478B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloAutoHideKeyboard2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.HelloAutoHideKeyboard2.HelloAutoHideKeyboard2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		527408562A38BA5500DE478B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.HelloAutoHideKeyboard2.HelloAutoHideKeyboard2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloAutoHideKeyboard2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloAutoHideKeyboard2";
+			};
+			name = Debug;
+		};
+		527408572A38BA5500DE478B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.HelloAutoHideKeyboard2.HelloAutoHideKeyboard2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloAutoHideKeyboard2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloAutoHideKeyboard2";
+			};
+			name = Release;
+		};
+		527408592A38BA5500DE478B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.HelloAutoHideKeyboard2.HelloAutoHideKeyboard2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloAutoHideKeyboard2;
+			};
+			name = Debug;
+		};
+		5274085A2A38BA5500DE478B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.HelloAutoHideKeyboard2.HelloAutoHideKeyboard2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloAutoHideKeyboard2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527408232A38BA5300DE478B /* Build configuration list for PBXProject "HelloAutoHideKeyboard2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527408502A38BA5500DE478B /* Debug */,
+				527408512A38BA5500DE478B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527408522A38BA5500DE478B /* Build configuration list for PBXNativeTarget "HelloAutoHideKeyboard2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527408532A38BA5500DE478B /* Debug */,
+				527408542A38BA5500DE478B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527408552A38BA5500DE478B /* Build configuration list for PBXNativeTarget "HelloAutoHideKeyboard2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527408562A38BA5500DE478B /* Debug */,
+				527408572A38BA5500DE478B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527408582A38BA5500DE478B /* Build configuration list for PBXNativeTarget "HelloAutoHideKeyboard2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527408592A38BA5500DE478B /* Debug */,
+				5274085A2A38BA5500DE478B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527408202A38BA5300DE478B /* Project object */;
+}
